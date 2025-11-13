@@ -1,2 +1,27 @@
-# vietnam_gold_price
-Fecth and store gold prices in Vietnam daily
+# 🇻🇳 Vietnamese Gold Price Tracker 🪙
+
+[![Daily Gold Price Collection](https://github.com/derkaiser9423/vietnam-gold-price/actions/workflows/collect_data.yml/badge.svg)](https://github.com/derkaiser9423/vietnam-gold-price/actions/workflows/collect_data.yml)
+
+> Automated daily updates of Vietnamese gold prices from **SJC**, **DOJI**, and **PNJ**, stored in a structured SQLite database.
+
+---
+
+## 🧭 Overview
+
+This project automatically collects gold prices from major Vietnamese markets and keeps them in a local SQLite database, updated daily at **2 PM Vietnam time**.
+
+It uses:
+- **GitHub Actions** to automate daily data fetching  
+- **Custom Vietnamese Gold Price API** as the source  
+- **SQLite** for lightweight data storage  
+
+---
+
+## 🛠️ Architecture
+
+```mermaid
+flowchart TD
+    A[GitHub Action (2PM Daily)] --> B[Python Script fetch_gold_data.py]
+    B --> C[Your Vietnamese Gold Price API]
+    C --> D[SQLite Database (data/metals_data.db)]
+    D --> E[Data Available in Repo]
