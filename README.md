@@ -1,6 +1,6 @@
 # 🇻🇳 Vietnamese Gold Price Tracker 🪙
 
-[![Daily Gold Price Collection](https://github.com/derkaiser9423/vietnam-gold-price/actions/workflows/collect_data.yml/badge.svg)](https://github.com/derkaiser9423/vietnam-gold-price/actions/workflows/collect_data.yml)
+[![Daily Gold Price Collection](https://github.com/derkaiser9423/vietnam_gold_price/actions/workflows/collect_data.yml/badge.svg)](https://github.com/derkaiser9423/vietnam_gold_price/actions/workflows/collect_data.yml)
 
 > Automated daily updates of Vietnamese gold prices from **SJC**, **DOJI**, and **PNJ**, stored in a structured SQLite database.
 
