@@ -17,11 +17,3 @@ It uses:
 
 ---
 
-## 🛠️ Architecture
-
-```mermaid
-flowchart TD
-    A[GitHub Action (2PM Daily)] --> B[Python Script fetch_gold_data.py]
-    B --> C[Your Vietnamese Gold Price API]
-    C --> D[SQLite Database (data/metals_data.db)]
-    D --> E[Data Available in Repo]
