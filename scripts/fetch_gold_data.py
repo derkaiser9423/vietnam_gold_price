@@ -3,7 +3,7 @@ import sqlite3
 import requests
 from datetime import datetime
 
-API_BASE = "https://vietnam-gold-price-api.onrender.com/api"  # May God help this host still alive
+API_BASE = "https://vn-gold-price-api-jvbw.onrender.com/api"  # May God help this host still alive
 SOURCES = ["sjc", "doji", "pnj"]
 DB_PATH = "data/metals_data.db"
 
